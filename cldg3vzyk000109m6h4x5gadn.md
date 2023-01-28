@@ -1,6 +1,6 @@
 # Start First React Native App and Debugging
 
-**STEP 1:create a folder called react native**
+### **STEP 1:create a folder called react native**
 
 ```bash
 npx react-native init AwesomeProject
