@@ -1,4 +1,4 @@
-# Start First React Native App and Debugging
+# Start First React Native App and Debugging (Ubuntu)
 
 ### **STEP 1:create a project called** AwesomeProject
 
@@ -29,6 +29,16 @@ sdk.dir=/home/to/Android/Sdk
 ```
 
 Then run again the command"**npx react-native run-android**"
+
+OR
+
+Start Metro:First, you will need to start Metro, the JavaScript bundler that ships with React Native. Metro "takes in an entry file and various options, and returns a single JavaScript file that includes all your code and its dependencies."
+
+To start Metro, run `npx react-native start` inside your React Native project folder:
+
+```bash
+npx react-native start
+```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674919371644/05234b8f-1628-4207-8b32-0e2bb2bbde9f.png align="center")
 
