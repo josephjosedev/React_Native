@@ -6,7 +6,7 @@
 npx react-native init AwesomeProject
 ```
 
-### **Step 3:Check and confirm USB debugging /Developer option Enable**
+### **Step 2:Check and confirm USB debugging /Developer option Enable**
 
 ```bash
 adb devices
