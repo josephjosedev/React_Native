@@ -6,19 +6,21 @@
 npx react-native init AwesomeProject
 ```
 
-### Step 2: Start your application
-
-```bash
-npx react-native run-android
-```
-
 ### **Step 3:Check and confirm USB debugging /Developer option Enable**
 
 ```bash
 adb devices
 ```
 
-In ubuntu "npx react-native run-android" shows error
+If you have a physical Android device, the device name listed here
+
+### Step 3: Start your application
+
+```bash
+npx react-native run-android
+```
+
+### **Errors encountered while creating the app**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674918854073/d5de5e8d-fd51-4c63-a85d-23e1bf1d2e39.png align="center")
 
@@ -44,4 +46,4 @@ npx react-native start
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674919431208/494623c8-b20c-44ba-a496-d17e7db09e23.png align="center")
 
-Now i am able to see my app and my app is running absolutely fine.
+Now i can see my app and my app is running fine. enjoy!!
