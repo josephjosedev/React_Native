@@ -2,7 +2,7 @@
 
 <mark>Quick Note</mark>:
 
-1. `__tests__/`: A directory containing test files for your application. Tests can be written using testing frameworks such as Jest.
+1. `__tests__/`: A directory containing test files for your application. Tests can be written using testing frameworks such as Jest.Testers work on this folder to do various tasks such as checking if the app, buttons are properly rendered.
     
 2. `ios/` and `android/`: Directories containing platform-specific native code for iOS and Android respectively.
     
