@@ -45,6 +45,10 @@ const styles=StyleSheet.create({
 export default AppPro
 ```
 
+<mark>output:</mark>
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675267994020/524cb60e-7895-4be9-8c24-47231acfbf5e.png align="center")
+
 **alignItems: justifyContent:**
 
 `alignItems` and `justifyContent` are props in React Native used to position and align elements within a container component.
