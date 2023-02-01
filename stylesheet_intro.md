@@ -5,7 +5,6 @@ import{
     StyleSheet,
     useColorScheme
 } from 'react-native'
-import { Colors } from 'react-native'
 function AppPro():JSX.Element{
     const isDarkMode =useColorScheme()=== 'dark'
     return(
