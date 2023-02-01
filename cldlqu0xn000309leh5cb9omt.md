@@ -43,14 +43,14 @@ const styles=StyleSheet.create({
         color:'#000000'
     }
 })
-export default AppPro 
+export default AppPro
 ```
 
 **alignItems: justifyContent:**
 
 `alignItems` and `justifyContent` are props in React Native used to position and align elements within a container component.
 
-`alignItems` is used to align elements vertically within a container. Possible values include:
+`alignItems` (left-right)is used to align elements vertically within a container. Possible values include:
 
 * `flex-start` (default) aligns items to the top of the container
     
@@ -61,7 +61,7 @@ export default AppPro
 * `stretch` stretches items to fill the container
     
 
-`justifyContent` is used to align elements horizontally within a container. Possible values include:
+`justifyContent` (Top-bottom)is used to align elements horizontally within a container. Possible values include:
 
 * `flex-start` (default) aligns items to the start of the container
     
