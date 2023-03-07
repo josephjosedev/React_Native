@@ -15,7 +15,9 @@ npm i yup
 npm i formik
 ```
 **Bouncy CheckBox**
+
 <p>Fully customizable animated bouncy checkbox for React Native</p>
+
 ```
 npm i react-native-bouncy-checkbox
 
