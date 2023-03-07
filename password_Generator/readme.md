@@ -23,4 +23,4 @@ npm i react-native-bouncy-checkbox
 
 ```
 output:
-![Alternate image text](pwdgn.png)
+![PasswordGenerator](https://raw.githubusercontent.com/josephjosedev/React_Native/main/op/pwdgn.png)
