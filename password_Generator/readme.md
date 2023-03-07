@@ -23,5 +23,4 @@ npm i react-native-bouncy-checkbox
 
 ```
 output:
-
-<img src="
+![Alternate image text](pwdgn.png)
