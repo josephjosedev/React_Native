@@ -22,4 +22,4 @@ npm i formik
 npm i react-native-bouncy-checkbox
 
 ```
-![PasswordGenerator](https://raw.githubusercontent.com/josephjosedev/React_Native/main/op/pwdgn.png)
+![PasswordGenerator](https://raw.githubusercontent.com/josephjosedev/React_Native/main/Projects/password_Generator/op/pwdgn.png)
