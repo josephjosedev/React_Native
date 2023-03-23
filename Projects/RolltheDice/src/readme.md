@@ -1,3 +1,12 @@
+Installed Packages in this project
+**react-native-haptic-feedback**
+```
+npm i react-native-haptic-feedback
+
+```
+
+
+
 You can find output Here.....
 
 
