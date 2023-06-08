@@ -8,3 +8,10 @@ First install
  npm install --save react-native-track-player
  
  ```
+ 
+ React Native Vector Icons
+ 
+ ```
+ npm i react-native-vector-icons
+ 
+ ```
