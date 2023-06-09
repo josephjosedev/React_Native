@@ -15,3 +15,9 @@ First install
  npm i react-native-vector-icons
  
  ```
+React Native Community Slider
+
+```
+npm i @react-native-community/slider
+
+```
