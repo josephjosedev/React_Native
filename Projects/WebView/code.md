@@ -1,3 +1,4 @@
+```
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { WebView } from 'react-native-webview'
@@ -13,3 +14,4 @@ const App = () => {
 export default App;
 
 const styles = StyleSheet.create({});
+```
