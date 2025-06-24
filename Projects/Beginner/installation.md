@@ -17,3 +17,8 @@ npx react-native start
 Android Device Settings
 
 Enable Developer mode and USB Debugging
+
+To check Android device connected 
+```
+adb devices
+```
