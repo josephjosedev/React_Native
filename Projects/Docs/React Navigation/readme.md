@@ -18,3 +18,7 @@ If you are using Stack  Navigation
 npm install @react-navigation/stack
 
 ```
+to clear cache 
+```
+npm start --clean-cache
+```
