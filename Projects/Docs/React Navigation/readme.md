@@ -22,3 +22,7 @@ to clear cache
 ```
 npm start --clean-cache
 ```
+if you are getting errors please re run command 
+```
+npx react-native run-android
+```
