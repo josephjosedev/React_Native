@@ -1,13 +1,7 @@
 {
   "banner": [
-    {
-      "image": "https://www.shutterstock.com/image-photo/champakulamkerala-india-3-rd-july-260nw-2332063821.jpg"
-    },
-    {
-      "image": "https://nehrutrophy.nic.in/images/ntbr1.jpg"
-    },
-    {
-      "image": "https://nehrutrophy.nic.in/images/ntbr1.jpg"
-    }
+    "https://nehrutrophy.nic.in/images/ntbr1.jpg",
+    "https://nehrutrophy.nic.in/images/ntbr2.jpg",
+    "https://nehrutrophy.nic.in/images/ntbr3.jpg"
   ]
 }
