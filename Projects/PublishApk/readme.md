@@ -55,14 +55,8 @@ In your project root:
 bash
 Copy
 Edit
+```
 cd android
 ./gradlew clean
 ./gradlew assembleRelease
-
-
-
-
-
-```
-./gradlew clean
 ```
