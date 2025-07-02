@@ -31,23 +31,28 @@ Copy
 
 Edit
 ```
-signingConfigs {
-    release {
-        storeFile file(MYAPP_UPLOAD_STORE_FILE)
-        storePassword MYAPP_UPLOAD_STORE_PASSWORD
-        keyAlias MYAPP_UPLOAD_KEY_ALIAS
-        keyPassword MYAPP_UPLOAD_KEY_PASSWORD
+...
+android {
+    ...
+    defaultConfig { ... }
+    signingConfigs {
+        release {
+            if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')) {
+                storeFile file(MYAPP_UPLOAD_STORE_FILE)
+                storePassword MYAPP_UPLOAD_STORE_PASSWORD
+                keyAlias MYAPP_UPLOAD_KEY_ALIAS
+                keyPassword MYAPP_UPLOAD_KEY_PASSWORD
+            }
+        }
+    }
+    buildTypes {
+        release {
+            ...
+            signingConfig signingConfigs.release
+        }
     }
 }
-
-buildTypes {
-    release {
-        signingConfig signingConfigs.release
-        minifyEnabled false
-        shrinkResources false
-        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-    }
-}
+...
 ```
 ✅ 2. Clean and Build the APK
 In your project root:
