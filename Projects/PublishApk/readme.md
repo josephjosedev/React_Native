@@ -8,8 +8,9 @@ Edit
 ```
 keytool -genkeypair -v -keystore my-release-key.keystore -alias my-key-alias \
   -keyalg RSA -keysize 2048 -validity 10000
-Save this .keystore file in your project at: android/app/my-release-key.keystore.
 ```
+Save this .keystore file in your project at: android/app/my-release-key.keystore.
+
 
 b) Edit android/gradle.properties
 Add the following at the bottom:
