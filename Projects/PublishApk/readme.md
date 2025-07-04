@@ -66,3 +66,5 @@ cd android
 ./gradlew clean
 ./gradlew assembleRelease
 ```
+Now you can find apk on
+android/app/build/outputs/apk/release/app-release.apk
