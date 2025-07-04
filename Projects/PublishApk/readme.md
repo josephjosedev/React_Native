@@ -55,12 +55,15 @@ android {
 }
 ...
 ```
+
+Generating the release AAB
+```
+npx react-native build-android --mode=release
+```
 ✅ 2. Clean and Build the APK
 In your project root:
 
-bash
-Copy
-Edit
+
 ```
 cd android
 ./gradlew clean
