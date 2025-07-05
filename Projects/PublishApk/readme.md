@@ -71,3 +71,6 @@ cd android
 ```
 Now you can find apk on
 android/app/build/outputs/apk/release/app-release.apk
+
+for reference
+[link1](https://youtu.be/gAxqc8-12iA?si=jy2hEfxCley29pzi)
