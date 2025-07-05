@@ -2,35 +2,27 @@
 a) Generate a Keystore
 You need a signing key to generate a release APK.
 
-bash
-Copy
-Edit
 ```
 keytool -genkeypair -v -keystore my-release-key.keystore -alias my-key-alias \
   -keyalg RSA -keysize 2048 -validity 10000
 ```
-Save this .keystore file in your project at: android/app/my-release-key.keystore.
+Save this .keystore file in your project at: **android/app/my-release-key.keystore**
 
 
-b) Edit android/gradle.properties
+b) Edit **android/gradle.properties**
 Add the following at the bottom:
 
-ini
-Copy
-Edit
 ```
 MYAPP_UPLOAD_STORE_FILE=my-release-key.keystore
 MYAPP_UPLOAD_KEY_ALIAS=my-key-alias
 MYAPP_UPLOAD_STORE_PASSWORD=your_store_password
 MYAPP_UPLOAD_KEY_PASSWORD=your_key_password
 ```
-c) Edit android/app/build.gradle
-Find the android { ... } section and update the signingConfigs and buildTypes like:
+c) Edit **android/app/build.gradle**
 
-gradle
-Copy
+Find the android { ... } section and update the **signingConfigs** and **buildTypes** like:
 
-Edit
+
 ```
 ...
 android {
@@ -56,7 +48,7 @@ android {
 ...
 ```
 
-Generating the release AAB
+**Generating the release AAB**
 ```
 npx react-native build-android --mode=release
 ```
@@ -73,4 +65,5 @@ Now you can find apk on
 android/app/build/outputs/apk/release/app-release.apk
 
 for reference
-[link1](https://youtu.be/gAxqc8-12iA?si=jy2hEfxCley29pzi)
+[Link1](https://youtu.be/cBn4CvkYHNY?si=TUn-JbJvRDLxM4B_)
+[link2](https://youtu.be/gAxqc8-12iA?si=jy2hEfxCley29pzi)
